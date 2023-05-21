@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Script to reproduce results
+
+envs=(Hopper-v3 Walker2d-v3 Ant-v3 HalfCheetah-v3 Humanoid-v3)
+steps=(1000000 1000000 3000000 3000000 10000000)
+cnt=0
+i=3
+n_timesteps=100
+for ((j=0;j<5;j+=1))
+do
+	nohup python -u main.py \
+	--env_name ${envs[i]} \
+	--num_steps 1000000 \
+	--policy_type 'MLP' \
+	--beta_schedule 'cosine' \
+	--n_timesteps  ${n_timesteps}\
+	--ratio 0.08 \
+	--ac_grad_norm 2 \
+	--action_gradient_steps 40 \
+	--update_actor_target_every 2 \
+	--seed $j \
+	--cuda "cuda:${cnt}" \
+	> "log/MLP-a_steps=40-%2-${envs[i]}-seed=${j}.log" 2>&1 &
+done
