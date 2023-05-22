@@ -60,3 +60,6 @@ Hyperparameters for DIPO have been shown as follow for easily reproducing our re
 | Diffusion inference timesteps | 100 | 100 | 100 | 100 | 100 |
 | Diffusion beta schedule | cosine | cosine | cosine | cosine | cosine |
 | Update actor target every | 1 | 1 | 1 | 2 | 1 |
+
+
+### Difussion Policy
