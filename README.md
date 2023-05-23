@@ -67,8 +67,8 @@ If you have any questions regarding the code or paper, feel free to send all cor
 ### Difussion Policy
 ![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/Algorithm.png)
 ![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/Multigoal.png)
-![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/DIPO Framework.png)
-![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/Diffusion Framework.png)
+![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/DIPO-Framework.png)
+![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/Diffusion-Framework.png)
 ![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/Ant-v3.png)
 ![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/HalfCheetah-v3.png)
 ![image](https://github.com/BellmanTimeHut/picture/blob/main/DIPO/Hopper-v3.png)
