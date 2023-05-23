@@ -1,10 +1,9 @@
 ## Policy Representation via Diffusion Probability Model for Reinforcement Learning
 
-**Policy Representation via Diffusion Probability Model for Reinforcement Learning**<br>
 
+*We formally build a theoretical foundation of policy representation via the diffusion probability model and provide practical implementations of diffusion policy for online model-free RL.*
 
-Abstract: *Popular reinforcement learning (RL) algorithms tend to produce a unimodal policy distribution, which weakens the expressiveness of complicated policy and decays the ability of exploration. The diffusion probability model is powerful to learn complicated multimodal distributions, which has shown promising and potential applications to RL. In this paper, we formally build a theoretical foundation of policy representation via the diffusion probability model and provide practical implementations of diffusion policy for online model-free RL. Concretely, we character diffusion policy as a stochastic process, which is a new approach to representing a policy. Then we present a convergence guarantee for diffusion policy, which provides a theory to understand the multimodality of diffusion policy. Furthermore, we propose the DIPO which is an implementation for model-free online RL with DIffusion POlicy. To the best of our knowledge, DIPO is the first algorithm to solve model-free online RL problems with the diffusion model. Finally, extensive empirical results show the effectiveness and superiority of DIPO on the standard continuous control MoJoCo benchmark.*
-
+Paper link: https://arxiv.org/pdf/2305.13122.pdf
 ## Experiments
 
 ### Requirements
@@ -61,7 +60,7 @@ Hyperparameters for DIPO have been shown as follow for easily reproducing our re
 | Diffusion beta schedule | cosine | cosine | cosine | cosine | cosine |
 | Update actor target every | 1 | 1 | 1 | 2 | 1 |
 
-#### Contact
+## Contact
 If you have any questions regarding the code or paper, feel free to send all correspondences to yanglong001@pku.edu.cn or zx.huang@zju.edu.cn
 
 
