@@ -61,5 +61,8 @@ Hyperparameters for DIPO have been shown as follow for easily reproducing our re
 | Diffusion beta schedule | cosine | cosine | cosine | cosine | cosine |
 | Update actor target every | 1 | 1 | 1 | 2 | 1 |
 
+#### Contact
+If you have any questions regarding the code or paper, feel free to send all correspondences to yanglong001@pku.edu.cn or zx.huang@zju.edu.cn
+
 
 ### Difussion Policy
