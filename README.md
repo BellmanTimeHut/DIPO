@@ -39,7 +39,7 @@ Hyperparameters for DIPO have been shown as follow for easily reproducing our re
 | Discount for reward $\gamma$ | 0.99 | 0.99 | 0.99 | 0.99 |
 | Target smoothing coefficient $\tau$ | 0.005 | 0.005 | 0.005 | 0.005 |
 | Learning rate for actor | $3 × 10^{-4}$ | $3 × 10^{-4}$ | $3 × 10^{-4}$ | $7 × 10^{-4}$ |
-| Learning rate for actor | $3 × 10^{-4}$ | $3 × 10^{-4}$ | $3 × 10^{-4}$ | $7 × 10^{-4}$ |
+| Learning rate for critic | $3 × 10^{-4}$ | $3 × 10^{-4}$ | $3 × 10^{-4}$ | $7 × 10^{-4}$ |
 | Actor Critic grad norm | 2 | N/A | N/A | 0.5 |
 | Memeroy size | $1 × 10^6$ | $1 × 10^6$ | $1 × 10^6$ | $1 × 10^6$ |
 | Entropy coefficient | N/A | 0.2 | N/A | 0.01 |
